@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #f8dce7, #3ad3cb);
+}
+
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
