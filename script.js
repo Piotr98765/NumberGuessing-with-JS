@@ -1,16 +1,17 @@
 var number;
 var guess;
 
+//Function for getting random Int
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     number = (Math.floor(Math.random() * (max - min + 1)) + min);
   }
 
+//Getting Random Int <1, 12>  
 getRandomIntInclusive(1, 12);
 
-console.log(number);
-
+//Logic behind choosing number  
 document.addEventListener('click', e => {
 
   if (e.target.matches('button')) {
